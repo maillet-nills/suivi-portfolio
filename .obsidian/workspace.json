@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "visualization.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "visualization"
             }
           }
         ]
@@ -186,15 +186,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "9bf925584f7f8d50",
+  "active": "868c998f37a72332",
   "lastOpenFiles": [
+    "assets.md",
     "visualization.md",
+    "todo-list.md",
     "README.md",
     "dashboard.md",
-    "todo-list.md",
     "assets/structure-portfolio.png",
     "assets/confrontation-projets-competences.png",
-    "assets.md",
     "global",
     "assets",
     "Untitled.canvas",

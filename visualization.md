@@ -4,8 +4,8 @@
 
 ## Réflexion sur les compétences et les projets
 
-![[confrontation-projets-competences.png]]
+![Confrontation projets compétences](assets/confrontation-projets-competences.png)
 
 ## Structuration du Portfolio
 
-![[structure-portfolio.png]]
+![Structure portfolio](assets/structure-portfolio.png)
