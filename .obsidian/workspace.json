@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "visualization.md",
-                "mode": "preview",
+                "file": "README.md.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "visualization"
+              "title": "README.md"
             }
           }
         ]
@@ -188,9 +188,10 @@
   },
   "active": "868c998f37a72332",
   "lastOpenFiles": [
+    "visualization.md",
+    "README.md.md",
     "dashboard.md",
     "todo-list.md",
-    "visualization.md",
     "assets/structure-portfolio.png",
     "assets/confrontation-projets-competences.png",
     "assets.md",
