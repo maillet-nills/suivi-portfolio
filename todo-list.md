@@ -4,6 +4,13 @@
 
 ---
 
+## 🏠 Général
+
+- [ ] Ajout du menu burger pour que la nav soit responsive mobile
+- [ ] 
+
+---
+
 ## 🏠 Page Home
 
 - [ ] Ajouter un lien vers la page Projects
@@ -46,6 +53,8 @@
 ---
 
 ## 💼 Page Experience
+
+- [ ] Conception de la page & déploiement
 
 ### Stage chez SNS Solutions
 
