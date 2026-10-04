@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "50d7e6a4183824b5",
+        "id": "eebf54e6e28807af",
         "type": "tabs",
         "children": [
           {
-            "id": "868c998f37a72332",
+            "id": "593c78cd64f875b1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "visualization.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "visualization"
+              "title": "New tab"
             }
           }
         ]
@@ -167,13 +163,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "e331af22317c5829",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,18 +189,19 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "868c998f37a72332",
+  "active": "e331af22317c5829",
   "lastOpenFiles": [
-    "assets.md",
-    "visualization.md",
     "todo-list.md",
-    "README.md",
+    "visualization.md",
     "dashboard.md",
-    "assets/structure-portfolio.png",
     "assets/confrontation-projets-competences.png",
+    "assets/structure-portfolio.png",
+    "README.md",
+    "assets.md",
     "global",
     "assets",
     "Untitled.canvas",
