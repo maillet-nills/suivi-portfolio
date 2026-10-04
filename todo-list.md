@@ -17,10 +17,14 @@
 
 ### NetSecLab
 
+> ⚠️ Projet non terminé (en cours)
+
 - [ ] Présentation
 - [ ] Documentation
 
 ### Firepit Application
+
+> ⚠️ Projet non terminé (en cours)
 
 - [ ] Présentation
 - [ ] Documentation
@@ -33,6 +37,8 @@
 - [ ] Documentation
 
 ### Parcours personnel
+
+> ⚠️ Certaines certifications non terminées (en cours)
 
 - [ ] Introduction to Cybersecurity (Cisco Academy)
 - [ ] Certified Junior Cybersecurity Analyst (Hack The Box)
