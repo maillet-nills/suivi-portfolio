@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "eebf54e6e28807af",
+        "id": "0d5ec0491ed2ddc1",
         "type": "tabs",
         "children": [
           {
-            "id": "593c78cd64f875b1",
+            "id": "37ec5a39023c5631",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -197,11 +197,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "593c78cd64f875b1",
+  "active": "e331af22317c5829",
   "lastOpenFiles": [
-    "dashboard.md",
     "todo-list.md",
     "visualization.md",
+    "dashboard.md",
     "README.md",
     "assets/confrontation-projets-competences.png",
     "assets/structure-portfolio.png",

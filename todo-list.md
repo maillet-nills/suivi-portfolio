@@ -38,6 +38,11 @@
 - [ ] Présentation
 - [ ] Documentation
 
+### Lothlorien GUI
+
+- [ ] Présentation
+- [ ] Documentation
+
 ### Projets C# BTS SIO2 (En attente)
 
 > ⚠️ Projets non débutés
@@ -71,3 +76,23 @@
 > Commits : 
 > - https://github.com/maillet-nills/maillet-nills.github.io/commit/5c23514d9487ca06855e6889962b486b4892220c
 > - https://github.com/maillet-nills/maillet-nills.github.io/commit/de6847a65581cba8338eead2290391e0a0e0af86
+
+---
+
+## 📄 Documentation & Rapports
+
+### Lothlorien GUI
+- [x] Rapport en Markdown
+- [x] Upload dans le repo github
+
+> Commits :
+> - https://github.com/maillet-nills/LothlorienGUI/commit/6bf23dbbe7fbce867c8f552c907e2f1f0c23e438
+> - https://github.com/maillet-nills/LothlorienGUI/commit/8c653e6717e24d2a02a87511fbe76f7cbd48922d
+
+### Firepit Application
+- [ ] Ecriture de la documentation en Markdown
+- [ ] Upload dans le repo github
+
+### NetSecLab
+- [ ] Ecriture de la documentation en Markdown
+- [ ] Upload dans le repo github
