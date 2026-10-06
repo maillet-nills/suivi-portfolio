@@ -11,6 +11,11 @@
 > Commits:
 > - https://github.com/maillet-nills/maillet-nills.github.io/commit/a7042a0a43bee6f8288929d2923f6420b33850da
 
+- [x] Refonte du CV
+
+> Commits :
+> - https://github.com/maillet-nills/maillet-nills.github.io/commit/e093c208ae3981146a6f882f866d53de14247d7e
+
 ---
 
 ## 🏠 Page Home
