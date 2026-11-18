@@ -4,16 +4,16 @@
 
 - **Titre de la réalisation** : GSB-GPI, application de bureau de gestion du matériel informatique et des incidents
 - **Cadre de réalisation** :
-  - [x] Stage 1
-  - [x] Stage 2
-  - [x] Atelier de professionnalisation
-  - [ ] Projet de cours (BTS SIO option SLAM, Lycée Henri Matisse, Toulouse, enseignante référente : Mme Exposito)
+  - [ ] Stage 1
+  - [ ] Stage 2
+  - [ ] Atelier de professionnalisation
+  - [x] Projet de cours (BTS SIO option SLAM, Lycée Henri Matisse, Toulouse, enseignante référente : Mme Exposito)
 - **Période de réalisation** : du 12 octobre au 15 novembre 2026 (environ 5 semaines)
 - **Modalité** : 
-  - [x] Individuel
-  - [ ] En équipe (3 personnes : Nills Maillet, chef de projet et développeur, Ali Hassan Karar, développeur, Mattéo Dauriac, développeur)
+  - [ ] Individuel
+  - [x] En équipe (3 personnes : Nills Maillet, chef de projet et développeur, Ali Hassan Karar, développeur, Mattéo Dauriac, développeur)
 - **Localisation / Organisation cliente** : Laboratoire Galaxy Swiss Bourdin (GSB), organisation fictive du cas d'étude, projet réalisé au Lycée Henri Matisse (Toulouse)
-- **Lien GitHub** : 
+- **Lien GitHub** : https://github.com/maillet-nills/GSB-GPI
 
 
 ---
@@ -71,7 +71,6 @@
 3. **Tests d'acceptation et vérification du bon fonctionnement**
    - Vérification fonctionnelle de chaque module sur un jeu de données de test (équipements, tickets, comptes des trois profils : Client, Technicien, Admin), avec contrôle que chaque profil ne voit que les écrans et les données qui lui sont destinés.
    - Contrôle de la traçabilité : chaque connexion, création, modification ou suppression génère une ligne dans la table des logs.
-   - [À COMPLÉTER : décrire les scénarios de test réellement joués et leurs résultats, le rapport ne contient pas de cahier de recette formel.]
 
 ### Gestion des imprévus / Incidents rencontrés
 
@@ -101,23 +100,23 @@
 
 ## 5. LIVRABLES ET PREUVES ASSOCIÉES
 
-- [ ] **Procédure technique ou document d'exploitation** : documentation utilisateur par profil (connexion et inscription, navigation, déclaration et traitement d'un incident, inventaire, administration des utilisateurs) et procédure de compilation autonome sous Rider
-- [ ] **Schémas d'architecture** : Diagramme 1 (architecture MVVM), Diagramme 2 (diagramme de classes), Diagramme 3 (MCD), Diagramme 4 (MLD)
-- [ ] **Planification** : diagrammes de Gantt prévisionnel et effectif (Figures 1 et 2), répartition de l'effort et des tâches (Figures 3 et 4), affectation des ressources (Figure 5), charge journalière (Figure 6)
-- [ ] **Extraits de configurations ou scripts commentés** : structuration des models (Code 1), GsbGPIDbContext (Code 2), méthodes Login, DeleteTicket, CreateTicket et UpdateUser de la DbToolBox, AddLog, commande Delete du ViewModel et son binding .axaml, script de sauvegarde pg_dump (annexe)
-- [ ] **Captures d'écran significatives** : tables Supabase, maquette Figma de la LoginView, connexion, inscription, tableau de bord, liste des incidents, fiche d'un ticket, inventaire, fiche équipement, gestion des utilisateurs, logo
-- [ ] **Code source versionné** : dépôt GitHub `https://github.com/maillet-nills/GSB-GPI`
+- [x] **Procédure technique ou document d'exploitation** : documentation utilisateur par profil (connexion et inscription, navigation, déclaration et traitement d'un incident, inventaire, administration des utilisateurs) et procédure de compilation autonome sous Rider
+- [x] **Schémas d'architecture** : Diagramme 1 (architecture MVVM), Diagramme 2 (diagramme de classes), Diagramme 3 (MCD), Diagramme 4 (MLD)
+- [x] **Planification** : diagrammes de Gantt prévisionnel et effectif (Figures 1 et 2), répartition de l'effort et des tâches (Figures 3 et 4), affectation des ressources (Figure 5), charge journalière (Figure 6)
+- [x] **Extraits de configurations ou scripts commentés** : structuration des models (Code 1), GsbGPIDbContext (Code 2), méthodes Login, DeleteTicket, CreateTicket et UpdateUser de la DbToolBox, AddLog, commande Delete du ViewModel et son binding .axaml, script de sauvegarde pg_dump (annexe)
+- [x] **Captures d'écran significatives** : tables Supabase, maquette Figma de la LoginView, connexion, inscription, tableau de bord, liste des incidents, fiche d'un ticket, inventaire, fiche équipement, gestion des utilisateurs, logo
+- [x] **Code source versionné** : dépôt GitHub `https://github.com/maillet-nills/GSB-GPI`
 
 ---
 
 ## 6. COMPÉTENCES DU BLOC 1 MOBILISÉES
 
-- [ ] **B1.1 Gérer le patrimoine informatique** : le module d'inventaire recense le parc (postes de travail, serveurs, équipements réseau) avec marque, modèle, date d'achat, fournisseur, location, garantie et affiliation à un utilisateur. Les niveaux d'habilitation par profil, le hachage des mots de passe et le script de sauvegarde pg_dump relèvent aussi de cette compétence.
-- [ ] **B1.2 Répondre aux incidents et demandes d'assistance** : le module de tickets couvre toute la chaîne, de la déclaration (objet, équipement concerné, urgence) à la clôture, avec attribution à un technicien, niveau d'intervention (N1 à N3) et états successifs (enregistré, traitement, résolu, clôturé). Les logs assurent la traçabilité des actions.
-- [x] **B1.3 Développer la présence en ligne** : compétence peu mobilisée dans ce projet.
-- [ ] **B1.4 Travailler en mode projet** : découpage en tâches, diagrammes de Gantt prévisionnel et effectif, affectation des ressources, analyse des surcharges, suivi sous Notion, travail collaboratif sur GitHub, rédaction d'un rapport de projet et d'un bilan.
-- [ ] **B1.5 Mettre à disposition des utilisateurs un service informatique** : publication d'un exécutable autonome déployable sur les postes clients sans SDK, documentation utilisateur illustrée par profil, interface adaptée à chaque habilitation, procédure de sauvegarde de la base.
-- [ ] **B1.6 Organiser son développement professionnel** : appropriation de technologies nouvelles (Avalonia UI, CommunityToolkit.Mvvm, Entity Framework Core, Supabase) à partir de documentations officielles référencées (Microsoft Learn, Avalonia, Supabase, PostgreSQL), et bilan critique du projet avec pistes d'amélioration.
+- [x] **B1.1 Gérer le patrimoine informatique** : le module d'inventaire recense le parc (postes de travail, serveurs, équipements réseau) avec marque, modèle, date d'achat, fournisseur, location, garantie et affiliation à un utilisateur. Les niveaux d'habilitation par profil, le hachage des mots de passe et le script de sauvegarde pg_dump relèvent aussi de cette compétence.
+- [x] **B1.2 Répondre aux incidents et demandes d'assistance** : le module de tickets couvre toute la chaîne, de la déclaration (objet, équipement concerné, urgence) à la clôture, avec attribution à un technicien, niveau d'intervention (N1 à N3) et états successifs (enregistré, traitement, résolu, clôturé). Les logs assurent la traçabilité des actions.
+- [ ] **B1.3 Développer la présence en ligne** : compétence peu mobilisée dans ce projet.
+- [x] **B1.4 Travailler en mode projet** : découpage en tâches, diagrammes de Gantt prévisionnel et effectif, affectation des ressources, analyse des surcharges, suivi sous Notion, travail collaboratif sur GitHub, rédaction d'un rapport de projet et d'un bilan.
+- [x] **B1.5 Mettre à disposition des utilisateurs un service informatique** : publication d'un exécutable autonome déployable sur les postes clients sans SDK, documentation utilisateur illustrée par profil, interface adaptée à chaque habilitation, procédure de sauvegarde de la base.
+- [x] **B1.6 Organiser son développement professionnel** : appropriation de technologies nouvelles (Avalonia UI, CommunityToolkit.Mvvm, Entity Framework Core, Supabase) à partir de documentations officielles référencées (Microsoft Learn, Avalonia, Supabase, PostgreSQL), et bilan critique du projet avec pistes d'amélioration.
 
 ---
 
